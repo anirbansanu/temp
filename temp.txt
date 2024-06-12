@@ -1,0 +1,9 @@
+this is ani , this is my first commit.
+
+My journey in the world of technology started with a solid foundation in Computer Science and Engineering.
+
+I completed my graduation from D.I.A.T.M. and also earned a diploma in Computer Science & Technology from L.P.I. 
+
+One of my most rewarding experiences was leading the development of a complex Ecommerce platform 
+featuring both Multi Variants Product and Multi Vendor capabilities using Laravel. 
+With my team , we successfully completed this project with in a record time of just 45 days.
