@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interview Call</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+    }
+
+    .card-header {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      background: linear-gradient(45deg, #007bff, #0056b3);
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+
+    .card-body {
+      padding: 30px;
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 1.25rem;
+      margin-bottom: 15px;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .list-group-item {
+      background-color: #fff;
+      border: none;
+      padding-left: 0;
+    }
+
+    .card-footer {
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #0056b3;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #004085;
+    }
+
+    .list-group {
+      margin-bottom: 20px;
+    }
+
+    .list-group-item strong {
+      font-weight: bold;
+    }
+
+    .company-logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    .signature {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <svg class="company-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="48" stroke="#0056b3" stroke-width="4" fill="#007bff" />
+          <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="20" fill="#fff">UniSoft</text>
+        </svg>
+        <h2><b>Interview Call</b></h2>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Dear Anirban Mukherjee,</h5>
+        <p class="card-text">We are pleased to inform you that you have been shortlisted for an interview with UniSoft Company. Please find the details of the interview below:</p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>Date:</strong> <span id="interview-date">Saturday, 15 June 2024</span></li>
+          <li class="list-group-item"><strong>Time:</strong> 11:00 am - 12:00 pm</li>
+          <li class="list-group-item"><strong>Location:</strong> Motiz Building, Sector V, Kolkata</li>
+        </ul>
+        <p class="card-text">Please bring a copy of your resume and any other relevant documents. We look forward to meeting you.</p>
+        <p class="card-text">Best regards,</p>
+        <p class="card-text signature">John Doe</p>
+        <p class="card-text"><strong>HR Manager, UniSoft Company</strong></p>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-primary" onclick="window.print()">Print</button>
+        <div class="contact-info">
+          <p><strong>Contact Information:</strong></p>
+          <p>Email: hr@unisoft.com | Phone: (123) 456-7890</p>
+          <p>Address: Motiz Building, Sector V, Kolkata</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
